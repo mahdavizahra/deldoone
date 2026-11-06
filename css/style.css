@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Vazirmatn:wght@300;400;500;600;700;800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Vazirmatn:wght@300;400;500;600;700;800&display=swap'); */
 
 :root{--ink:#292522;--muted:#817873;--paper:#fbf8f4;--cream:#f2eae2;--rose:#d98f83;--rose-dark:#a85f58;--line:#e9dfd7}
 
@@ -8,8 +8,13 @@ html{
   scroll-behavior:smooth;scroll-padding-top:90px}
 
 body{
-  margin:0;background:var(--paper);color:var(--ink);font-family:'Vazirmatn','DM Sans',sans-serif;line-height:1.9}
+  margin:0;background:var(--paper);color:var(--ink);font-family:'IRoya','DM Sans',sans-serif;line-height:1.9}
 
+  @font-face {
+    font-family: 'IRoya';
+    src: url('fonts/IRoya.woff2') format('woff2'), url('fonts/IRoya.woff') format('woff');
+
+  }
 a{
   color:inherit;text-decoration:none}
 
