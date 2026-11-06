@@ -26,13 +26,11 @@ img{
 
 .navbar-nav .nav-link{
   color:#625a55;padding-inline:1rem}
-
 .navbar-nav .nav-link:hover,.text-link:hover{
   color:var(--rose-dark)}
 
 .btn-rose{
   background:var(--rose-dark);color:#fff;border-color:var(--rose-dark)}
-
 .btn-rose:hover{
   background:#874943;color:#fff;border-color:#874943}
 
@@ -50,7 +48,7 @@ img{
 .hero p{
   max-width:490px;color:var(--muted);font-size:15px;line-height:2.2}
 
-.eyebrow{
+.mini-text{
   font-size:11px;letter-spacing:2px;color:var(--rose-dark);font-weight:700}
 
 .hero-image{
