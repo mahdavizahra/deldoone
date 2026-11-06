@@ -16,7 +16,7 @@ a{
 img{
   max-width:100%;display:block}
 
-.site-header{
+.header_look{
   background:rgba(251,248,244,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(12px);padding:.7rem 0}
 
 .logo{
