@@ -17,7 +17,7 @@ img{
   max-width:100%;display:block}
 
 .header-look{
-  background:rgba(251,248,244,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(12px);padding:.7rem 0}
+  background:rgba(251,248,244,.96);border-bottom:1px solid var(--line);padding:.7rem 0}
 
 .logo{
   font-family:'DM Sans','Vazirmatn',sans-serif;font-size:25px;font-weight:700;letter-spacing:-1.5px;direction:ltr}
@@ -40,7 +40,7 @@ img{
 .banner>div:first-child{flex:1 1 48%}
 
 .banner h1{
-  font-size:clamp(2.35rem,5vw,4.1rem);line-height:1.4;margin:1rem 0;font-weight:600}
+  font-size:42px;line-height:1.4;margin:1rem 0;font-weight:600}
 
 .banner h1 em{
   font-style:normal;color:var(--rose-dark)}
@@ -55,10 +55,10 @@ img{
   position:relative;flex:1 1 42%}
 
 .banner-image img{
-  width:100%;height:520px;object-fit:cover;border-radius:48% 48% 12px 12px}
+  width:100%;height:520px;object-fit:cover;border-radius:20px}
 
 .image-note{
-  position:absolute;bottom:28px;left:-15px;background:#fff;padding:15px 20px;border-radius:14px;box-shadow:0 15px 45px #412b2214;font-size:12px}
+  position:absolute;bottom:28px;left:-15px;background:#fff;padding:15px 20px;border-radius:14px;box-shadow:0 10px 25px rgba(0,0,0,0.08);font-size:12px}
 
 .image-note strong{
   display:block;font-size:16px}
@@ -73,7 +73,7 @@ img{
   display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:2rem}
 
 .section-head h2{
-  font-size:clamp(1.5rem,3vw,2rem);line-height:1.5;margin:.4rem 0 0;font-weight:600}
+  font-size:28px;line-height:1.5;margin:.4rem 0 0;font-weight:600}
 
 .section-head p,.step p,.feature-card p,.post-card p,.value-card p{color:var(--muted);font-size:13px;line-height:2}
 
@@ -110,7 +110,7 @@ img{
   display:flex;justify-content:space-between;color:var(--muted);font-size:12px;margin-bottom:15px}
 
 #progress{
-  width:100%;height:6px;accent-color:var(--rose-dark)}
+  width:100%;height:6px}
 
 .question{
   font-size:23px;margin:26px 0 20px}
@@ -140,7 +140,7 @@ img{
   padding:4rem 10%;text-align:center;background:#e9d9d0;border-radius:22px}
 
 .quote p{
-  font-size:clamp(1.2rem,3vw,1.6rem);line-height:1.9;max-width:720px;margin:10px auto 20px}
+  font-size:22px;line-height:1.9;max-width:720px;margin:10px auto 20px}
 
 .quote small{
   color:#806c64}
@@ -149,7 +149,7 @@ img{
   padding:4.5rem 1rem 3.5rem;text-align:center}
 
 .page-banner h1{
-  font-size:clamp(2rem,4vw,2.7rem);margin:.5rem 0}
+  font-size:34px;margin:.5rem 0}
 
 .page-banner p{
   color:var(--muted);max-width:600px;margin:auto;font-size:14px}
@@ -181,14 +181,13 @@ img{
 .contact-form{
   padding:30px}
 
-
 .contact-form label{
   display:block;font-size:13px;margin:14px 0 6px}
 
 .contact-form .form-control,.contact-form .form-select{
   padding:12px;border-color:var(--line);border-radius:10px}
 
-.contact-form .form-control:focus,.contact-form .form-select:focus{border-color:var(--rose-dark);box-shadow:0 0 0 .2rem #a85f5820}
+.contact-form .form-control:focus,.contact-form .form-select:focus{border-color:var(--rose-dark);box-shadow:0 0 0 3px rgba(168,95,88,0.2)}
 
 .site-footer{
   background:#292522;color:#f8f2ec;padding:3.5rem 0 1.5rem}
@@ -199,12 +198,14 @@ img{
 .site-footer h3{
   font-size:14px}
 
-
 .footer-bottom{
   border-top:1px solid #49413c;margin-top:2rem;padding-top:1rem;color:#968a82;font-size:11px;display:flex;justify-content:space-between}
 
 @media(max-width:767.98px){
   .banner{padding-top:3rem;padding-bottom:3rem}
+  .banner h1{font-size:26px}
+  .page-banner h1{font-size:24px}
+  .quote p{font-size:17px}
   .banner-image img{height:360px}
   .image-note{left:8px}
   .section{padding-top:3.2rem;padding-bottom:3.2rem}
