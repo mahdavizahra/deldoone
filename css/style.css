@@ -34,18 +34,18 @@ img{
 .btn-rose:hover{
   background:#874943;color:#fff;border-color:#874943}
 
-.hero{
+.banner{
   padding-top:4.5rem;padding-bottom:4.5rem}
 
 .hero>div:first-child{flex:1 1 48%}
 
-.hero h1{
+.banner h1{
   font-size:clamp(2.35rem,5vw,4.1rem);line-height:1.4;margin:1rem 0;font-weight:600}
 
-.hero h1 em{
+.banner h1 em{
   font-style:normal;color:var(--rose-dark)}
 
-.hero p{
+.banner p{
   max-width:490px;color:var(--muted);font-size:15px;line-height:2.2}
 
 .mini-text{
