@@ -37,7 +37,7 @@ img{
 .banner{
   padding-top:4.5rem;padding-bottom:4.5rem}
 
-.hero>div:first-child{flex:1 1 48%}
+.banner>div:first-child{flex:1 1 48%}
 
 .banner h1{
   font-size:clamp(2.35rem,5vw,4.1rem);line-height:1.4;margin:1rem 0;font-weight:600}
@@ -51,10 +51,10 @@ img{
 .mini-text{
   font-size:11px;letter-spacing:2px;color:var(--rose-dark);font-weight:700}
 
-.hero-image{
+.banner-image{
   position:relative;flex:1 1 42%}
 
-.hero-image img{
+.banner-image img{
   width:100%;height:520px;object-fit:cover;border-radius:48% 48% 12px 12px}
 
 .image-note{
@@ -66,7 +66,7 @@ img{
 .section{
   padding-top:4.5rem;padding-bottom:4.5rem}
 
-.soft,.page-hero{
+.soft,.page-banner{
   background:#f4eee8}
 
 .section-head{
@@ -145,13 +145,13 @@ img{
 .quote small{
   color:#806c64}
 
-.page-hero{
+.page-banner{
   padding:4.5rem 1rem 3.5rem;text-align:center}
 
-.page-hero h1{
+.page-banner h1{
   font-size:clamp(2rem,4vw,2.7rem);margin:.5rem 0}
 
-.page-hero p{
+.page-banner p{
   color:var(--muted);max-width:600px;margin:auto;font-size:14px}
 
 .article-layout{
@@ -204,8 +204,8 @@ img{
   border-top:1px solid #49413c;margin-top:2rem;padding-top:1rem;color:#968a82;font-size:11px;display:flex;justify-content:space-between}
 
 @media(max-width:767.98px){
-  .hero{padding-top:3rem;padding-bottom:3rem}
-  .hero-image img{height:360px}
+  .banner{padding-top:3rem;padding-bottom:3rem}
+  .banner-image img{height:360px}
   .image-note{left:8px}
   .section{padding-top:3.2rem;padding-bottom:3.2rem}
   .section-head{display:block}
